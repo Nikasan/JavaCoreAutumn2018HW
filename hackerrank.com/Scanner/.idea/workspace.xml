@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24c9cf94-2dd1-4cd2-a490-627c7d4e4aea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java Stdin and Stdout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Stdin and Stdout/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Solution/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Solution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Solution/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,6 +15,7 @@
     <session id="666035275">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -50,7 +47,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="275">
               <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
@@ -108,7 +105,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538479656816" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538480135402" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Solution" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -151,7 +149,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="68" y="20" width="1400" height="776" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -166,7 +163,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32970452" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32970452" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32970452" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39968896" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -187,7 +184,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="275">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
