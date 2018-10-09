@@ -13,7 +13,7 @@ public class Solution {
 
         scan.nextLine();
 
-        System.out.println("Input String:");
+       System.out.println("Input String:");
         String s = scan.nextLine();
 
         scan.close();
