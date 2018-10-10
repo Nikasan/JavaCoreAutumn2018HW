@@ -14,7 +14,7 @@ public class Solution {
                 Pattern.compile(pattern);
                 System.out.println("Valid");
             } catch (PatternSyntaxException e) {
-                System.out.println("Invalid");
+                System.out.println("Invalid"+e);
             }
             testCases--;
         }
