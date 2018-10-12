@@ -256,6 +256,14 @@ paket-files/
 # CodeRush
 .cr/
 
+#Java
+*.jar
+*.class
+out
+.idea
+*.iml
+target
+
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
