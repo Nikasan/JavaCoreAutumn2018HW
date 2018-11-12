@@ -3,10 +3,10 @@ package task2_Java2D_Array;
 import java.io.*;
 import java.math.*;
 import java.security.*;
-import java.tejt.*;
+import java.text.*;
 import java.util.*;
 import java.util.concurrent.*;
-import java.util.regej.*;
+import java.util.regex.*;
 
 public class Solution {
 
