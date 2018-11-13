@@ -16,5 +16,11 @@ public class ListCreator {
         System.out.println("Input index:");
         System.out.println(mylist.get(scanner.nextInt()));
 
+        mylist.remove(2);
+        System.out.println("After remove second item");
+        System.out.println(mylist);
+
+
+        }
+
     }
-}
