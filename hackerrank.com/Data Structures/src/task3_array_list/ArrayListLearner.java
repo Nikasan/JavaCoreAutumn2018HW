@@ -3,7 +3,7 @@ package task3_array_list;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class ListCreator {
+public class ArrayListLearner {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
