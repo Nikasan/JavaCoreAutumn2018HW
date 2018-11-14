@@ -33,3 +33,12 @@ public class Solution {
         return deque.isEmpty();
     }
 }
+//Class ArrayDeque<E>
+//java.lang.Object
+//java.util.AbstractCollection<E>
+//java.util.ArrayDeque<E>
+
+//pop()
+//Pops an element from the stack represented by this deque.
+//push(E e)
+//Pushes an element onto the stack represented by this deque.
