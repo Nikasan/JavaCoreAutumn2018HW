@@ -11,14 +11,14 @@ class Checker2 implements Comparator<Student> {
         if ((a.getCgpa() - b.getCgpa()) == 0) {
             if (a.getFname().equals(b.getFname())) {
                 return Integer.compare(b.getId(), a.getId());
-            } else{
+            } else
                 return a.getFname().compareTo(b.getFname());
-            } else{
+            } else
                 return Double.compare(b.getCgpa(), a.getCgpa());
-            }
+
         }
     }
-}
+
 
 class Student {
     private int id;
