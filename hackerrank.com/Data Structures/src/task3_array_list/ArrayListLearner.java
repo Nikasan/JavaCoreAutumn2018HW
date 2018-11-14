@@ -8,10 +8,11 @@ public class ArrayListLearner {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
 
-        ArrayList<Integer>  mylist  = new ArrayList<>();
-         for (int i=0; i<n; i++){
-             mylist.add(scanner.nextInt());
-         }
+        ArrayList<Integer> mylist = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            mylist.add(scanner.nextInt());
+        }
+
         System.out.println(mylist);
         System.out.println("Input index:");
         System.out.println(mylist.get(scanner.nextInt()));
@@ -20,7 +21,9 @@ public class ArrayListLearner {
         System.out.println("After remove second item");
         System.out.println(mylist);
 
-
-        }
+        mylist.add(0);
+        System.out.println(mylist);
 
     }
+
+}
