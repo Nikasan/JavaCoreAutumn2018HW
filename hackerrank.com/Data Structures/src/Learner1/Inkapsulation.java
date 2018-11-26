@@ -43,6 +43,18 @@ class Lion extends Cat{
     }
 }
 
+class Pantera extends Lion{
+    private String color="Black";
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+}
+
 
 public class Inkapsulation {
     public static void main(String[] args) {
@@ -59,7 +71,10 @@ public class Inkapsulation {
         Simba.setSound("ARRRR");
         System.out.println(Simba.getAge()+" "+Simba.getWeight()+" "+Simba.getName()+" "+Simba.getSound());
 
-        System.out.println();
+        System.out.println(Pantera);
+
+//        Pantera.setWeight(10);
+//        System.out.println(Pantera.getWeight()+" "Pantera.getColor());
 
     }
 }
