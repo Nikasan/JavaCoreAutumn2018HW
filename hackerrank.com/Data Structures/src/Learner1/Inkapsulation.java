@@ -1,7 +1,10 @@
 package Learner1;
 
+import javax.naming.directory.InvalidAttributeValueException;
+import java.security.InvalidParameterException;
+
 class Cat{
-    private String name = "Tom";
+    protected String name = "Tom";
     private int age;
     private static String sound = "Mur";
 
@@ -21,14 +24,15 @@ class Cat{
         this.age = age;
     }
 
-    public String getSound() {
+    public static String getSound() {
         return sound;
     }
-    public void setSound (String s){
-        sound = s;
 
+    public static void setSound(String sound) {
+        Cat.sound = sound;
     }
 }
+
 
 class Lion extends Cat{
     private int weight;
@@ -46,11 +50,15 @@ class Lion extends Cat{
 class Pantera extends Lion{
     private String color="Black";
 
+
     public String getColor() {
         return color;
     }
 
     public void setColor(String color) {
+        if(!color.equals("black")){
+            throw new InvalidParameterException("Color can't be not black");
+        }
         this.color = color;
     }
 }
@@ -71,10 +79,23 @@ public class Inkapsulation {
         Simba.setSound("ARRRR");
         System.out.println(Simba.getAge()+" "+Simba.getWeight()+" "+Simba.getName()+" "+Simba.getSound());
 
-        System.out.println(Pantera);
+        System.out.println();
 
-//        Pantera.setWeight(10);
-//        System.out.println(Pantera.getWeight()+" "Pantera.getColor());
+        Pantera bagira =new Pantera();
+        bagira.setWeight(10);
+        Pantera.setSound("arrrr");
 
+        try {
+            bagira.setColor("arrr");
+        } catch (InvalidParameterException e) {
+            System.out.println(e);
+        } finally {
+
+            System.out.println("After exeption in finnally");
+        }
+
+        System.out.println(bagira.getWeight()+" "+bagira.getColor()+Pantera.getSound());
+        System.out.println(String.format("%d %s %s",bagira.getWeight(),bagira.getColor(),bagira.getName()));
+        System.out.println(bagira.toString());
     }
 }
