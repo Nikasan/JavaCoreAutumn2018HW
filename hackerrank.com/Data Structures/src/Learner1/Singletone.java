@@ -20,7 +20,11 @@ public class Singletone {
         Car myCar = Car.getInstance();
         System.out.println(myCar);
 
+
+
         Car secondCar = Car.getInstance();
         System.out.println(secondCar);
+
+
     }
 }
